@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="principal">
+
+        <figure id="fogionhoForm">
+            <img src="img/Ativo11.png" alt="imagem do foguinho preto">
+        </figure>
+
+        <h1>Tabela de pedidos</h1>
+        <form class="formulario" name="pedido" action="agradecimento.html" method="GET">
+            <fieldset>
+                <legend>CADASTRO</legend>
+                <span>
+                    <label for="nome">Nome: </label> 
+                    <input type="text" name="nome" id="nome" placeholder="Obrigatório*" required> 
+                </span>
+                <span>
+                    <label for="sobrenome">Sobrenome: </label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Obrigatório*" required> 
+                </span>
+                <br>
+                <span>
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email" placeholder="euamobotafé@comaxis.com">
+                </span>
+            </fieldset>
+
+            <fieldset>
+                <legend>ENDEREÇO</legend>
+                
+                <span id="spanEndereco">
+                    <label id="labelRua" for="enderecoid">Rua:</label>
+                    <input type="text" name="endereco" id="enderecoid" placeholder="Obrigatório*" required>
+                    <label for="numeroid">Número:</label>
+                    <input type="number" name="numero" id="numeroid" placeholder="Obrigatório*" min="1" required>
+                </span>
+               
+                <span id="spanComplemento"> 
+                    <label for="complementoid">Complemento:</label>
+                    <input type="text" name="complemento" id="complementoid" placeholder="Obrigatório* (ex: apto 54)" required>
+                </span>
+                
+                <span id="spanCidade">
+
+                    <label for="cidadeid">Cidade: </label>
+                    <select name="cidade" id="cidadeid">
+                    <optgroup label="Rio Grande do Sul">
+                        <option value="ALVORADA">Alvorada</option>
+                        <option value="CANOAS">Canoas</option>
+                        <option value="ESTEIO">Esteio</option>
+                        <option value="GAVATAI">Gravataí</option>
+                        <option value="NOVOHAMBURGO">Novo Hamburgo</option>
+                        <option value="PASSOFUNDO">Passo Fundo</option>
+                        <option value="PELOTAS">Pelotas</option>
+                        <option value="PORTOALEGRE">Porto Alegre</option>
+                        <option value="SAOLEOPOLDO">São Leopoldo</option>
+                        <option value="selecionar" selected disabled>Selecionar</option>
+                    </optgroup>
+                </select>
+                
+                <label for="telefone">Celular: </label>
+                <input type="tel" name="celular" id="telefone" placeholder="(ddd)90000-0000" required>
+            </span>
+                
+            </fieldset>
+            
+            <fieldset id="lanches">
+                <legend>SELECIONE OS ITENS DESEJADOS E AS QUANTIDADES</legend>
+                <span id="hitmaker">
+                    <span class="checkboxes">
+                        <input id="checkHitmaker" type="checkbox">
+                        <label for="checkHitmaker">HitMaker R$ 23,00 </label> 
+                    </span>
+                    <!-- <div> -->
+                        <span>
+                            <img src="img/gabe_hitmaker.jpg" alt="imagem do xis hitmaker">
+                            <span class="descriao-lanche">
+                                Um Hit é um Hit e esse xis é a prova disso, o queridinho de vocês que é puro sabor e memória afetiva. Mira essa delícia:
+                                <b>
+                                - Estrogonofe de soja com molho de tomate caseiro + creme de semente de girassol.
+                                - Maionese de cebolinha e salsa 
+                                - batata palha, alface, milho e ervilha ♥
+                                </b>
+                            </span>
+
+                        </span>
+                    <!-- </div> -->
+                    <input type="number"  value="0" min="0" max="100" step="1">
+                    <label >Quantidade  </label>
+                </span>
+                <span id="deusas">
+                    <span class="checkboxes">
+                        <input type="checkbox">
+                        <label >Deusas R$ 23,00 </label> 
+                    </span>
+                    <span>
+                        <img src="img/DEUSA_BENEDITA.png" alt="imagem do xis deusas">
+                        <!-- <p> -->
+                            <span class="descriao-lanche">
+                                Vem pra cá deusas do amooooor. Nosso xis das Deusas é de comer rezando mesmo porque é recheado das coisas mais deliciosas, confere só: 
+                                <b>
+                                    - Burger de grão de bico e soja 
+                                    - Queijo Coalho de Batata - Maionese Rosa de Alho 
+                                    - Picles de beterraba
+                                    - Milho, ervilha, tomate e alface
+                                </b>
+                            </span>
+                        <!-- </p> -->
+                    </span>
+                    <input type="number"  value="0" min="0" max="100" step="1">
+                    <label >Quantidade  </label>
+                </span>
+                <span id="chutinei">
+                    <span class="checkboxes">
+                        <input  type="checkbox">
+                        <label>Chutinei R$ 23,00 </label> 
+                    </span>
+                    <span>
+                        <img src="img/chutinei.png" alt="imagem do xis hitmaker">
+                        <!-- <p> -->
+                            <span class="descriao-lanche">
+                                O xis agridoce mais querido da cidade. 
+                                <b>
+                                    - Iscas de Soja (a mais deliciosa dO MUNDO)
+                                    - Chutney de Cebola (quem gosta do agridoce vai amar esse ♥)
+                                    - Requeijão de Girassol (perfeito)
+                                    - Maionese de Curry
+                                    - Milho, ervilha, alface e tomate.
+                                </b>
+                        </span>
+                        <!-- </p> -->
+                    </span>
+                    <input type="number"  value="0" min="0" max="100" step="1">
+                    <label >Quantidade  </label>
+                </span>
+                <span id="catioro">
+                    <span class="checkboxes">
+                        <input  type="checkbox">
+                        <label>Catioro R$ 25,00 </label> 
+                    </span>
+                    <span>
+                        <img src="img/catioro2.png" alt="imagem do xis hitmaker">
+                        <!-- <p> -->
+                        <span class="descriao-lanche">
+                            Ó Ele aqui pra encantar os corações de vocês, nosso Catioro Fake diferentão e gostoso demais.
+                            <b>
+                                - linguiça de soja com grão de bico
+                                - requeijão de semente de girassol
+                                - maiô de cebolinha e salsa
+                                - relish de pepino
+                                - GRANOLA SALGADA
+                                - tomate
+                            </b>
+                        </span>
+                        <!-- </p> -->
+                    </span>
+                    <input type="number"  value="0" min="0" max="100" step="1">
+                    <label >Quantidade  </label>
+                </span>
+            </fieldset>
+
+            <fieldset id="bebidas">
+                <legend>BEBIDAS</legend>
+                <!-- <span> -->
+                <div class="div-bebidas">
+                    <!-- <figure> -->
+                        <img src="img/polar.png" alt="Imagem da polar">
+                    <!-- </figure> -->
+                    
+                    <div class="quant-bebidas">
+                        <div>
+                            <input type="number"  value="0" min="0" max="100" step="1">
+                            <label >Quantidade  </label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox">
+                            <label>Polar R$ 6,00 </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- </span> -->
+                <!-- <span> -->
+                 <div class="div-bebidas">
+                    <!-- <figure> -->
+                        <img src="img/hnk.png" alt="Imagem da heineken">
+                    <!-- </figure> -->
+                    
+                    <div class="quant-bebidas">
+                        <div>
+                            <input type="number"  value="0" min="0" max="100" step="1">
+                            <label >Quantidade  </label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox">
+                            <label>Heineken R$ 9,00 </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- </span> -->
+                <!-- <span> -->
+                <div class="div-bebidas">    
+                    <!-- <figure> -->
+                        <img src="img/amstel.png" alt="Imagem da Amstel">
+                    <!-- </figure> -->
+                    
+                    <div class="quant-bebidas">
+                        <div>
+                            <input type="number"  value="0" min="0" max="100" step="1">
+                            <label >Quantidade  </label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox">
+                            <label>Amstel R$ 7,50 </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </span> -->
+                <!-- <span> -->
+                <div class="div-bebidas">
+                    <!-- <figure> -->
+                        <img src="img/coca.png" alt="Imagem da Coca-Cola">
+                    <!-- </figure> -->
+                    
+                    <div class="quant-bebidas">
+                        <div>
+                            <input type="number"  value="0" min="0" max="100" step="1">
+                            <label >Quantidade  </label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox">
+                            <label>Coca R$ 5,00 </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- </span> -->
+                <!-- <span> -->
+                <div class="div-bebidas">
+
+                    <!-- <figure> -->
+                        <img src="img/fruki.png" alt="Imagem da Fruki">
+                        <!-- </figure> -->
+                        
+                        <div class="quant-bebidas">
+                            <div>
+                                <input type="number"  value="0" min="0" max="100" step="1">
+                                <label >Quantidade  </label>
+                            </div>
+                            
+                            <div>
+                                <input type="checkbox">
+                                <label>Fruki R$ 5,00 </label>
+                            </div>
+                        </div>
+                </div>
+                <!-- </span> -->
+                <!-- <span> -->
+                <div class="div-bebidas">
+                    <!-- <figure> -->
+                        <img id="provinciaForm" src="img/provincia.png" alt="Imagem da Província">
+                    <!-- </figure> -->
+                    
+                    <div class="quant-bebidas">
+                        <div>
+                            <input type="number"  value="0" min="0" max="100" step="1">
+                            <label >Quantidade  </label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox">
+                            <label>Província R$ 13,00 </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- </span> -->
+                <!-- <span> -->
+                <div class="div-bebidas">
+                    <!-- <figure> -->
+                        <img id="aguaForm" src="img/agua.png" alt="Imagem da Água">
+                    <!-- </figure> -->
+                    
+                    <div class="quant-bebidas">
+                        <div>
+                            <input type="number"  value="0" min="0" max="100" step="1">
+                            <label >Quantidade  </label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox">
+                            <label>Água R$ 4,00 </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- </span> -->
+            </fieldset>
+
+            <fieldset id="observacoes">
+                <legend>OBSERVAÇÕES</legend>
+                <textarea name="observacao" cols="77" rows="5" maxlength="300" placeholder="Escreva aqui algo importante que precisamos saber sobre seu pedido..."></textarea>
+            </fieldset>
+            <!-- <nav  id="fazerPedido">
+                <a href="agradecimento.html">
+                    <img src="img/fazerpedido.jpeg" alt="Botão fazer pedido">
+                </a>
+            </nav> -->
+            <input id="fazerPedido" alt="Botão fazer pedido" type="image" name="btnFazrPedido" src="img/fazerpedido.jpeg">
+        </form>
+
+        <div>
+            <a id="whatsnav" target="_blank" href="https://api.whatsapp.com/send?phone=555195836104">
+                <ion-icon id="whatsapp" name="logo-whatsapp"></ion-icon>
+            </a>
+            <a href="#principal" id="arrownav">
+                <ion-icon id="arrowUp" name="arrow-up-circle-outline"></ion-icon>
+            </a>
+        </div>
+    </div>
+
+    <!-- IMPORTAÇÃO DO PACOTE DE ÍCONES -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

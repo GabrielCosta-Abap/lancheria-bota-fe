@@ -1,0 +1,48 @@
+/* ********** */
+/*  PÁGINA 4  */
+/* ********** */
+#pagina4{
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    min-width: 1349px;
+    max-width: 1349px;
+    background-image: url(/img/2.png);
+}
+
+#pagina4 figure img{
+    border: 3px solid black;
+    height: 300px;
+}
+
+#catiorro{
+    float: left;
+    margin-top: 394px;
+}
+
+#chutinei{
+    float: right;
+}
+
+#titulo-chutinei{
+    font-family: 'Montserrat-Black' ;
+    font-size: 65px;
+    float: left;
+}
+
+#pagina4 figure  #hamburguinho2{
+    border: none;
+    width: 300px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+#titulo-catioro{
+    font-family: 'Montserrat-Black' ;
+    font-size: 65px;
+    color: white;
+    float: left;
+    margin-left: 200px;
+    margin-top: 35px
+}

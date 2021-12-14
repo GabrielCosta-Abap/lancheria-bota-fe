@@ -1,0 +1,60 @@
+/* ********** */
+/*  PÁGINA 5  */
+/* ********** */
+#pagina5{
+    height: 708px;
+    background-repeat: no-repeat;
+    min-width: 1349px;
+    max-width: 1349px;
+    width: 100%;
+    background-size: 1500px;
+}
+
+#pagina5 div{
+    width: 24.7%;
+    height: 350px;
+    border: 2px solid #a21e1d;
+    float: left;
+    background-color: #fdf9ea;
+}
+
+#pagina5 div img {
+    width: 60%;
+    height: auto;
+    margin-top: 37px;
+    margin-left: 60px;
+}
+
+#pagina5 h2{
+    text-align: left;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+#pagina5 div #fruki{
+    height: 190px;
+    width: auto;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#pagina5 div #agua{
+    height: 190px;
+    width: auto;
+    margin-left: 130px;
+    margin-bottom: 14px;
+}
+
+#pagina5 div #provincia{
+    height: 250px;
+    width: auto;
+    margin-left: 100px;
+    margin-bottom: 0;
+    margin-top: -10px;
+}
+
+
+#pagina5 div #polar{
+    margin-left: 70px;
+}

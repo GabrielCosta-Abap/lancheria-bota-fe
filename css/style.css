@@ -1,0 +1,166 @@
+*{
+    /*Zerar as propriedades de margin e padding de todos os elementos 
+	do html, pois assim teremos maior controle sobre o conteúdo da página*/
+    margin: 0;
+    padding: 0;
+    
+}
+
+#principal{
+    min-width: 1349px;
+    max-width: 2100px;
+    margin: 0 auto;
+}
+
+@font-face {
+	font-family: "JandaManateeSolid";
+	src: url(/fonts/JandaManateeSolid.ttf);
+}
+
+@font-face {
+	font-family: "Montserrat-Black";
+	src: url(/fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+	font-family: "Montserrat-SemiBold";
+	src: url(/fonts/Montserrat-SemiBold.ttf);
+}
+
+#pagina1{
+    min-width: 1000px;
+    max-width: 2000px;
+    margin-top: 0;
+    background-size: 2100px;
+    height: 600px;
+}
+
+figure{
+    margin-top: 0;
+    margin-block-start: 0;
+    margin-inline-start: 0;
+}
+
+#teste{
+    margin-top: 0;
+}
+
+#quadro4, #quadro3, #quadro1, #quadro2{
+    float: left;
+    width: 674px;
+    height: 304px;
+}
+
+.quadros-amarelos{
+    height: 400px;
+    background-color: #f9c930;
+}
+.quadros-vermelhos{
+    height: 400px;
+    background-color: #a21e1d;
+}
+
+#logo{
+    position: absolute;
+    margin: 12% 59%;
+    width: 250px;
+    right: -250px;
+    /* width:100px;
+    height:100px;
+    position:absolute;
+    top:50%;
+    left:50%; */
+}
+
+nav{
+    position: fixed;
+    z-index:10;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    right: 360px;
+    text-align: right;
+    min-width: 305px;
+    max-width: 700px;
+    
+    /* 560px; */
+    border: 1px solid black;
+}
+
+nav li{
+    display: inline;
+    margin-right: 10px;
+    padding: 25px;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li a{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#pecaAqui ul li a{
+    padding-right: 41px;
+}
+
+.peca-aqui{
+    position: fixed;
+    font-family: 'Montserrat-Black';
+    background-color: #a21e1d;
+    right: 50px;
+    border-radius: 0 0 10px 10px;
+}
+
+.peca-aqui ul li a{
+    color: white;
+}
+
+#quadro1 img{
+	position: static;
+    height: 230px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#quadro2 img{
+	position: static;
+    /* height: 250px; */
+    height: 230px;
+    margin-left: 27%;
+    margin-top: 8%;
+}
+
+#quadro3 img{
+	position: static;
+    /* height: 350px; */
+    height: 230px;
+    margin-left: 15%;
+    margin-left: 27%;
+    margin-top: 8%;
+}
+
+#quadro4 img{
+	position: static;
+    /* height: 330px; */
+    height: 230px;
+    margin-left: 25%;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+#menu ul li a:link, 
+#menu ul li a:visited{
+    transition: color 1s;
+}
+
+#menu ul li a:hover{
+    font-style: oblique;
+    color: #a21e1d;
+}
+#menu ul li a:active {
+	color: #a21e1d;;
+}

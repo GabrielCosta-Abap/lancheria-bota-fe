@@ -1,0 +1,24 @@
+body{
+/* background-image: url(/img/agradecimento.jpeg);
+background-repeat: no-repeat;
+width: 1349px; */
+background-color: #fdf9ea;;
+}
+
+#agradecimento{
+    background-image: url(/img/agradecimento.jpeg);
+    background-repeat: no-repeat;
+    width: 1349px;
+    height: 600px;
+    background-size: 1200px;
+    background-position: center;
+    padding-top: 50px;
+}
+
+#cachorrinho{
+    margin-left: 480px;
+    position: absolute;
+    top: 200px;
+    width: 400px;
+    height: 400px;
+}

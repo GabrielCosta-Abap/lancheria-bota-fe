@@ -1,0 +1,68 @@
+/* ********** */
+/*  PÁGINA 3  */
+/* ********** */
+#pagina3{
+    background-image: url(/img/1.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 1349px;
+    min-width: 1349px;
+    max-width: 1349px;
+}
+
+#pagina3 figure img{
+    border: 3px solid black;
+    float: left;
+    width: 300px;
+}
+
+#hit-maker{
+    border: 3px solid black;
+    width: 730px;
+    height: 150px;
+    float: left;
+    text-align: center;
+
+}
+
+#hit-maker h2{
+    font-family: 'Montserrat-Black';
+    text-align: left;
+    padding-top: 20px ;
+    padding-left: 230px;
+    font-size:55px;
+}
+
+#graos{
+    height: 150px;
+    width: 700px;
+    float: left;
+}
+
+#pagina3 figure #hamburguinho{
+    border: none;
+    /* position: absolute; */
+    /* left: 700px; */
+    /* top: 2300px; */
+    /* position: relative; */
+    margin-left: -800px;
+    margin-top: 220px;
+}
+
+#deusas h2{
+    /* position: absolute; */
+    /* top: 2900px; */
+    /* left: 700px; */
+    position: relative;
+    float: left;
+    color: white;
+    font-family: 'Montserrat-Black';
+    font-size: 65px;
+    margin-top: -100px;
+    margin-left: 540px;
+}
+
+#louise{
+    margin-left: 1042px;
+    margin-top: 88px;
+}

@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#principal{
+    /* Centraliza a página no meio :) */
+    /* margin: 0 85px; */
+    background-color: #a21e1d;
+}   
+
+html{
+    font-family: Arial, Verdana, sans-serif;
+}
+
+@font-face {
+	font-family: "JandaManateeSolid";
+	src: url(/fonts/JandaManateeSolid.ttf);
+}
+
+@font-face {
+	font-family: "Montserrat-Black";
+	src: url(/fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+	font-family: "Montserrat-SemiBold";
+	src: url(/fonts/Montserrat-SemiBold.ttf);
+}
+
+h1{
+    text-align: center;
+    margin-left: 70px;
+    font-family: 'Montserrat-SemiBold';
+    color: #f9c930;
+}
+
+form{
+    width: 700px;
+    margin-left: 350px;
+} 
+
+div form fieldset{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+div form fieldset span{
+    padding-left: 15px;
+}
+
+label, legend, .descriao-lanche{
+    color: white
+}
+/* label, legend, p{
+    color: white
+} */
+
+#sobrenome{
+    /* width: 100px; */
+    margin-bottom: 20px;
+}
+
+#nome{
+    width:  100px;
+}
+
+img{
+    width: 150px;
+    float: left;
+    margin-right: 60px;
+
+}
+
+#lanches span{
+    display: block;
+    margin-top: 0;
+
+}
+
+.descriao-lanche{
+    width: 250px;
+    font-size: 14px;
+    margin: 0;
+    border: none;
+    float: left;
+    text-align: left;
+}
+/* p{
+    width: 250px;
+    font-size: 14px;
+    margin: 0;
+    border: none;
+    float: left;
+    text-align: left;
+} */
+
+span{
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+#lanches span span{
+    display: block;
+}
+
+#lanches span .checkboxes{
+    display: block;
+    font-size: 14px;
+}
+
+#lanches span .checkboxes input{
+    display: inline;
+    margin-top: 0;
+}
+
+fieldset{
+    width: 600px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+#lanches span span input{
+    margin-top: 50px;
+}
+
+#bebidas{
+    margin-top: 15px;
+}
+
+#bebidas span div{
+    margin-top: 15px;
+}
+
+#bebidas span{
+    display: inline-block;
+}
+#bebidas .div-bebidas{
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    
+    
+    
+    display: inline-block;
+}
+
+#provinciaForm{
+    height: 200px;
+    width: auto;
+    margin-left: 25px;
+    margin-right: 85px;
+}
+
+#aguaForm{
+    height: 200px;
+    width: auto;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+#observacoes{
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#fogionhoForm{
+    margin-left: 150px;
+    position: fixed;
+}
+
+#lanches{
+    margin-top: 15px;
+}
+
+#labelEndereco{
+    display: block;
+}
+
+#spanEndereco{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#spanComplemento{
+    display: block;
+}
+
+#fazerPedido{
+    width: 600px;
+    margin-left: 55px;
+    height: 250px;
+}
+
+#fazerPedido{
+    width: 620px;
+    margin-left: 45px;
+    height: 37px;
+    border-radius: 25px;
+}
+
+#arrowUp{
+    height: 32px;
+    /* margin-left: 540px; */
+    margin-top: 15px;
+    /* margin-bottom: 500px; */
+}
+
+#whatsnav{
+    height: 32px;
+    width: 32px;
+    margin-left: 642px;
+    margin-top: 15px;
+    margin-bottom: 500px;  
+    color: darkgreen;
+}
+
+#whatsnav #whatsapp{
+    height: 60px;
+    width: 60px;
+}
+#arrownav #arrowUp{
+    height: 60px;
+    width: 60px;
+    color: black;
+}
+
+.quant-bebidas{
+    margin-top: 70px;
+    /* background-color: blue; */
+}

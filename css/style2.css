@@ -1,0 +1,94 @@
+/* ********** */
+/*  PÁGINA 2  */
+/* ********** */
+#pagina2{
+    background-color: #fdf9ea;
+    /* height: 1920px; */
+    /* background-size: 2100px; */
+    min-width: 1349px;
+    max-width: 1349px;
+    height: 800px;
+
+}
+#pagina2 h2{
+    font-family: 'JandaManateeSolid';
+    font-size: 50px;
+    margin-left: 150px ;   
+    padding-top: 55px;
+}
+
+
+#pagina2 #botafe{
+    width:350px   ;
+    text-align: left;
+    margin-left: 100px;
+    padding: unset;
+    float: left;
+}
+
+#pagina2 figure{
+    float: left;
+}
+
+#pagina2 figure img{
+    height: 290px;
+    padding-top: 100px;
+    margin-left: 45px;
+}
+
+#pagina2 slider{
+    float: left;
+}
+
+#pagina2 #botafe p{
+    font-size: 20px;
+    font-family: 'Montserrat-SemiBold';
+    text-align: justify;
+}
+
+.carrossel{
+    width: 500px;
+    height: 370px;
+    outline: 3px solid black;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgb(0,0,0,0.7);
+    margin-bottom: 135px;
+}
+
+.carrossel ul{
+    /*  ok pelo profe */
+    display: flex;
+    list-style: none;
+    height: 400px;
+}
+
+.carrossel li{
+    position: relative;
+    animation: slide 10s infinite ease-out;
+}
+.carrossel ul li img{
+    width: 500px;
+    height: 400px;
+}
+
+@keyframes slide{
+    0%{left: 0px}
+    20%{left: 0px}
+
+    30%{left: -500px}
+    50%{left: -500px;}
+
+    60%{left: -1000px}
+    90%{left: -1000px}
+    
+    100%{left: 0px;}
+}
+
+#arrowUp{
+    height: 32px;
+    margin-bottom: 190px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;    
+}
